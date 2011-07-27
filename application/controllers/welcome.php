@@ -11,7 +11,7 @@ class Welcome extends CI_Controller {
 	{
 		//$this->load->library('Layouts');
 		$this->layouts->set_title('welcome!');
-		$this->layouts->view('welcome_message');
+		$this->layouts->view('welcome_message','','default');
 	}
 }
 
